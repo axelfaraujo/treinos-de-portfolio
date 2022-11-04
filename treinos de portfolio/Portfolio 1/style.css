@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    font-size: 18px;
+}
+
+body{
+    font-family: 'Epilogue', 'sans-serif';
+    position: relative;
+    min-height: 100vh;
+    max-width: 390px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        rgb(253, 251, 251)
+    rgb(255, 255, 255, 0.993)
+    );
+}
+
+.btn:hover{
+    transform: translateY(-5px);
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  li:hover {
+    background-color: yellow;
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+  }
+
+  header{
+    margin: 1rem;
+  }
+
+  nav.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 1.5rem;
+    max-width: 80vw;
+    margin: 1rem auto;
+    margin-left: 10rem;
+  }
+
+  li {
+    margin-left: 1.5rem;
+  }
+
+  .image {
+    background: url('imagens/capa.jpg') no-repeat;
+    height: 70vh;
+    width: 120vw;
+    background-position: center;
+    background-size: contain;
+  }
